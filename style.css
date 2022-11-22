@@ -1,0 +1,94 @@
+h3 {
+    font-size: 30px;
+    text-align: right;
+    color: rgb(207, 46, 46);
+}
+
+.nav {
+    list-style-type: none;
+    background-color: yellow;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.bgcolor {
+    background-color: mediumturquoise;
+}
+
+#bgurl {
+    text-align: center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+#bgurl:hover {
+    opacity: 1;
+}
+
+#bgurl img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+#hover {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s;
+    float: left;
+}
+
+#hover:hover {
+    width: 300px;
+    background-color: green;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown img {
+    width: 300px;
+    height: auto;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#text {
+    background-color: gray;
+    border: 10px solid green;
+
+    text-align: justify;
+    text-indent: 10%;
+    float: left;
+}
+
+#text1 {
+    background-color: gray;
+    border: 10px solid green;
+
+    text-align: justify;
+    text-indent: 10%;
+    width: 609px;
+    float: right;
+}
