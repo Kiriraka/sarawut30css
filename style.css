@@ -77,7 +77,8 @@ h3 {
 #text {
     background-color: gray;
     border: 10px solid green;
-
+    padding: 20px;
+    margin: 20px;
     text-align: justify;
     text-indent: 10%;
     float: left;
@@ -86,9 +87,11 @@ h3 {
 #text1 {
     background-color: gray;
     border: 10px solid green;
-
+    padding: 20px;
+    margin: 20px;
     text-align: justify;
     text-indent: 10%;
-    width: 609px;
-    float: right;
+    width: 520px;
+    height: 200px;
+    float: left;
 }
